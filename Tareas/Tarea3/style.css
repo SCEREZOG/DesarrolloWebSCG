@@ -1,0 +1,85 @@
+.contenedor {
+  margin: 0 auto;
+  width: 800px;
+  background-image: url(diseno-web-scaled.jpg);
+  /*background-color: rgb(235, 235, 235);*/
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.cabecera {
+  border: 5px solid rgb(70, 70, 70);
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(166, 228, 250);
+  font-family: monospace;
+  text-align: center;
+  font-size: 40px;
+}
+.cuerpo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navegador {
+  width: 50%;
+}
+
+.boton1 {
+  border: 5px solid rgb(70, 70, 70);
+  height: 50px;
+  width: 300px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 40px;
+  background-color: rgb(192, 192, 192);
+  text-align: center;
+  font-size: 40px;
+  font-family: cursive;
+}
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.botones2 {
+  display: flex;
+}
+
+.botones3 {
+  display: flex;
+}
+
+.boton2 {
+  border: 5px solid rgb(70, 70, 70);
+  height: 100px;
+  width: 150px;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: rgb(166, 228, 250);
+  text-align: center;
+  font-size: 35px;
+  font-family: cursive;
+}
+.boton3 {
+  border: 5px solid rgb(70, 70, 70);
+  height: 100px;
+  width: 150px;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: rgb(255, 183, 178);
+  text-align: center;
+  font-size: 35px;
+  font-family: cursive;
+}
+
+.contenido {
+  color: black;
+  font-size: 40px;
+  font-family: monospace;
+  margin: 15px;
+  background-color: rgb(192, 192, 192);
+  border-radius: 100%;
+  padding: 50px 10px 10px 30px;
+  border: 5px solid rgb(70, 70, 70);
+}

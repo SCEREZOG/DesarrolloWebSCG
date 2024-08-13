@@ -1,0 +1,104 @@
+.contenedor {
+  margin: 0 auto;
+  width: 900px;
+  border: 1px solid black;
+}
+
+.cabecera {
+  display: flex;
+  background-color: #95b3d7;
+}
+.rojo {
+  color: #c60000;
+  font-size: 25px;
+  padding: 20px 20px 0px 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.negro {
+  color: black;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.indice {
+  display: flex;
+  justify-content: space-between;
+}
+
+.amarillo {
+  background-color: #ffc000;
+  border: 1px solid black;
+  width: 50%;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.azul {
+  background-color: #0070c0;
+  border: 1px solid black;
+  width: 50%;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+  background-color: #404040;
+  display: flex;
+  padding-bottom: 10px;
+  justify-content: flex-end;
+}
+
+.preguntarojo {
+  background-color: #c60000;
+  width: 100px;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  margin: 5px 10px auto 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.preguntablanco {
+  background-color: white;
+  width: 100px;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  margin: 5px 10px auto 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contenido {
+  height: 200px;
+  background-color: #d9d9d9;
+  padding: 100px 50px 100px 50px;
+}
+
+.centro {
+  display: flex;
+  flex-direction: column;
+  background-color: #404040;
+  border: 1px solid black;
+  padding: 30px 100px 100px 100px;
+  color: #ffc000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.pie {
+  background-color: #c0504d;
+  padding-left: 200px;
+  border: 1px solid black;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.siglos {
+  padding: 10px;
+}
+.usfx {
+  padding: 10px 20px 10px 20px;
+}

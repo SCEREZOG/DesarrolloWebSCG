@@ -1,0 +1,117 @@
+body {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-wrap: wrap;
+}
+.cabecera {
+  background-color: black;
+  display: flex;
+  color: white;
+  padding: 20px 10px;
+  margin: 0px 30px 0px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img1 {
+  margin: 0px;
+  width: 100%;
+}
+.opciones {
+  margin-left: 20px;
+}
+.iconos {
+  margin-left: 180px;
+  width: 200px;
+}
+
+.fab {
+  margin: 5px;
+}
+
+.cuerpo2 {
+  margin: 0px 30px 0px 30px;
+}
+
+.cabeceramedia {
+  background-color: #425e3f;
+  display: flex;
+  color: white;
+  padding: 20px 10px;
+  margin: 0px 30px 0px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.buscador {
+  display: flex;
+  margin-left: 25%;
+  border-radius: 5px;
+}
+.lupa {
+  background-image: url();
+}
+.img2 {
+  margin: 0px 30px 0px 40px;
+}
+.linea {
+  border-top: 1px solid black;
+  margin: 30px 30px 10px 40px;
+}
+.columnas {
+  margin: 0px 30px 0px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.primeracolumna {
+  margin: 20px 20px auto 0px;
+}
+.alaire {
+  font-size: 20px;
+  color: white;
+  margin-left: 10px;
+}
+.punto {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border-radius: 50px;
+  margin-left: auto;
+}
+.cab {
+  display: flex;
+  background-color: #425e3f;
+  align-items: center;
+  padding: 10px 100px 5px 100px;
+}
+.aud {
+  display: flex;
+  background-color: #425e3f;
+  margin-top: 20px;
+  width: 97%;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.audio {
+  width: 80%;
+  height: 30px;
+}
+
+.concilicacion {
+  background-color: green;
+  width: 300px;
+  height: 400px;
+  margin: 20px 0px 20px 0px;
+  border-radius: 20px;
+}
+
+select {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+.icono {
+  width: 15px;
+  height: 15px;
+}

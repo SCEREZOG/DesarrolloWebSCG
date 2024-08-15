@@ -1,0 +1,85 @@
+.contenedor {
+  margin: 0 auto;
+}
+
+.cabecera {
+  background-color: salmon;
+  text-align: center;
+  padding: 2%;
+}
+.titulo {
+  color: white;
+  margin: 10px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.descripcion {
+  color: white;
+  margin: 10px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+  background-color: rgb(38, 161, 139);
+  display: flex;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+  margin: 25px;
+  font-size: 20px;
+}
+
+.navd {
+  margin: 25px;
+  display: flex;
+  margin-left: 30%;
+  font-size: 20px;
+}
+.cuerpo {
+  display: flex;
+}
+
+.cuadroizquierdo {
+  background-color: rgb(235, 233, 233);
+  padding: 20px;
+}
+
+.contenidoizquierdo {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(158, 156, 156);
+}
+.tituloizquierdo {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.cuadroderecho {
+  padding: 40px;
+}
+.tituloderecho {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px auto 20px 10px;
+  font-weight: bold;
+}
+.descripderecho {
+  font-weight: bold;
+  margin: 20px auto 20px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenidoderecho {
+  width: 668px;
+  height: 200px;
+  background-color: rgb(158, 156, 156);
+}
+.pie {
+  margin: 30px auto 10px auto;
+  font-family: Arial, Helvetica, sans-serif;
+}

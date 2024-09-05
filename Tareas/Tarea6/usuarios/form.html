@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="crear_usuarios.php" method="post">
+      <label for="">Ingrese su e-mail</label>
+      <input type="email" name="email" /><br />
+      <label for="">Ingrese su contraseña</label>
+      <input type="password" name="password" /><br />
+      <label for="">Ingrese el nivel del usuario </label>
+      <select name="nivel" id="">
+        <option value="1">Administrador</option>
+        <option value="2">Usuario</option>
+      </select>
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>

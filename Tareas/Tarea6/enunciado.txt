@@ -1,0 +1,11 @@
+Utilizando el editor Cursor realizar el crud para las siguientes tablas  de bd_elecciones
+usuarios 
+id int autonumerado, email  varchar(100), password varchar(100), nivel tinyint 
+mesas 
+id numero_mes , departamento_id, municipio_id, lugar_id, recinto_id
+
+y las tablas departamento, municipio,lugar y recinto
+
+
+
+

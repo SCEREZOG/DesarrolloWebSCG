@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="crear_mesas.php" method="post">
+      <label for="">Ingrese el mes</label>
+      <select name="mes" id="">
+        <option name="enero">Enero</option>
+        <option value="febrero">Febrero</option>
+        <option value="marzo">Marzo</option>
+        <option value="abril">Abril</option>
+        <option value="mayo">Mayo</option>
+        <option value="junio">Junio</option>
+        <option value="julio">Julio</option>
+        <option value="agosto">Agosto</option>
+        <option value="septiembre">Septiembre</option>
+        <option value="octubre">Octubre</option>
+        <option value="noviembre">Noviembre</option>
+        <option value="diciembre">Diciembre</option>
+      </select>
+      <input type="email" name="numero_mesa" /><br />
+      <label for="">Ingrese su contraseña</label>
+      <input type="password" name="password" /><br />
+      <label for="">Ingrese el nivel del usuario </label>
+      <select name="nivel" id="">
+        <option value="1">Administrador</option>
+        <option value="2">Usuario</option>
+      </select>
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>

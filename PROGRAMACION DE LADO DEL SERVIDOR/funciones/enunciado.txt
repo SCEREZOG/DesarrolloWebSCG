@@ -1,0 +1,7 @@
+Realizar una pagina que permita elegir entre tres estilos: grande, mediano y pequeño a traves de un select
+luego crear los estilos mencionados con diferentes tamaños de letras y color 
+grande font-sixe:32px; background-color:yellow
+mediano font-sixe:24px; background-color:blue
+pequeño font-sixe:12px; background-color:green
+
+de acuerdo al estilo seleccionado se debe aplicar a un div con el texto "Programacion Web" y mostrarlo centrado y con bordes

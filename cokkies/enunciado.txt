@@ -1,0 +1,1 @@
+Realizar un programa en php que solicita dos numeros mediante formulario luego con ese valor crear un a cokkie y mostrar el menu con dos enlaces sumar, restar y multiplicar, cuando el usuario elija la opcion debera mostrar el resultado de la operacion seleccionada.

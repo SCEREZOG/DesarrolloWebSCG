@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  border: 1px solid black;
+  width: 600px;
+  /*flex-direction: row;*/
+  flex-wrap: nowrap;
+  /*flex-flow: row rowrap;*/
+  margin: auto;
+  justify-content: space-around;
+  /*align-items: baseline;*/
+  align-self: center;
+}
+
+.item {
+  width: 50px;
+  border: 2px solid rgb(249, 248, 248);
+  background-color: orange;
+}

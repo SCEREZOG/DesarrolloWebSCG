@@ -1,0 +1,25 @@
+.contenedor {
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 80%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.cuerpo {
+  display: flex;
+  flex-direction: row;
+}
+
+.encabezado {
+  margin: 0 auto;
+  height: 80px;
+  border: 1px solid black;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  height: 398px;
+}

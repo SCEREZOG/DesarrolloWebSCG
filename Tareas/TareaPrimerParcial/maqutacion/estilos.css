@@ -1,0 +1,109 @@
+.contenedor {
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 900px;
+}
+
+.cabecera {
+  background-color: rgb(166, 207, 238);
+  display: flex;
+  height: 200px;
+}
+.imagen {
+  padding: 0px 0px 30px 120px;
+}
+.texto {
+  width: 70%;
+  margin-right: 20%;
+  margin-left: 10%;
+}
+
+.rojo {
+  color: red;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.azul {
+  color: blue;
+  text-transform: uppercase;
+  padding-right: 10px;
+}
+.amarillo {
+  color: yellow;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.verde {
+  color: green;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.usfx {
+  color: red;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.trescolores {
+  padding-left: 10px;
+}
+.facsucre {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.carrera {
+  text-align: center;
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.semestre {
+  text-align: center;
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cuerpo {
+  display: flex;
+}
+
+.ejercicios {
+  width: 120px;
+  padding: 20px 30px 20px 5px;
+  background-color: rgb(70, 69, 83);
+}
+
+.descripcion {
+  width: 780px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+}
+
+.ejer {
+  border: 1px solid black;
+  width: 100px;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.lista {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+li {
+  padding: 3px;
+}
+
+.imagen;

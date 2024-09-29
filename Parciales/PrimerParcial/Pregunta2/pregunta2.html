@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Generar Tablero</title>
+  </head>
+  <body>
+    <h1>Generar Tablero de Ajedrez</h1>
+    <form action="tablero.php" method="POST">
+      <label for="numerofilas">Número de Filas:</label>
+      <input type="number" name="numerofilas" required /><br /><br />
+
+      <label for="numerocolumnas">Número de Columnas:</label>
+      <input type="number" name="numerocolumnas" required /><br /><br />
+
+      <label for="fila">Fila:</label>
+      <input type="number" name="fila" /><br /><br />
+
+      <label for="columna">Columna:</label>
+      <input type="number" name="columna" /><br /><br />
+
+      <label for="color">Color del Tablero:</label>
+      <input type="color" name="color" /><br /><br />
+
+      <input type="submit" value="Generar Tablero" />
+    </form>
+  </body>
+</html>

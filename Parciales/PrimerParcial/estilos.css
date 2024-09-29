@@ -1,0 +1,130 @@
+.general {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 900px;
+  border: 1px solid black;
+}
+
+.cabecera {
+  display: flex;
+  background-color: #fabf8f;
+}
+.descripcion {
+  width: 70%;
+  padding-top: 30px;
+}
+
+.rojo {
+  color: #c60000;
+  margin: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.azul {
+  color: #0070c0;
+  margin: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.escudo {
+  padding: 20px;
+}
+
+.facultad {
+  padding: 20px;
+}
+.intermedio {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sistemas {
+  background-color: #d9d9d9;
+  border-right: 1px solid black;
+  padding: 5px;
+  width: 50%;
+}
+
+.ciencias {
+  background-color: #92d050;
+  padding: 5px;
+  width: 50%;
+}
+
+.menu {
+  display: flex;
+  background-color: rgb(62, 58, 58);
+}
+
+.semestre {
+  width: 45%;
+  color: #ffc000;
+  padding: 7px;
+}
+.preguntas {
+  display: flex;
+  padding-right: 2px;
+}
+.inicio {
+  border: 2px solid rgb(255, 85, 0);
+  background-color: #ffc000;
+  padding: 5px 40px 5px 40px;
+  margin: 2px;
+}
+.pregunta2 {
+  border: 2px solid rgb(255, 85, 0);
+  background-color: #ffc000;
+  padding: 5px 45px 5px 45px;
+  margin: 2px;
+}
+.pregunta3 {
+  border: 2px solid rgb(255, 85, 0);
+  background-color: #ffc000;
+  padding: 5px 45px 5px 45px;
+  margin: 2px;
+}
+
+.cuerpo {
+  display: flex;
+}
+
+.izquierda {
+  width: 120px;
+  border-right: 1px solid black;
+}
+.pregunta4 {
+  border: 2px solid rgb(255, 85, 0);
+  background-color: #ffc000;
+  padding: 5px;
+  margin: 5px;
+}
+.contenido {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d9d9d9;
+  width: 780px;
+}
+
+.video {
+  padding: 0px 50px 0px 60px;
+}
+
+.img {
+}
+
+.pie {
+  border-top: 1px solid black;
+  padding-left: 80%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

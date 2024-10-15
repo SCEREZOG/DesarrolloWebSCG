@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verificar Palíndromo</title>
+    <script>
+      function esPalindromo(texto) {
+        var textoLimpio = texto.toLowerCase().replace(/\s+/g, "");
+        var textoInvertido = textoLimpio.split("").reverse().join("");
+        if (textoLimpio === textoInvertido) {
+          return "La cadena es un palíndromo.";
+        } else {
+          return "La cadena no es un palíndromo.";
+        }
+      }
+
+      var cadena = prompt(
+        "Introduce una cadena de texto para verificar si es un palíndromo:"
+      );
+
+      var resultado = esPalindromo(cadena);
+      document.write(resultado);
+    </script>
+  </head>
+  <body></body>
+</html>

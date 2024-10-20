@@ -87,7 +87,7 @@ $alumnos = $con->query($query);
         <tr>
           <td><?php echo $alumno['id']; ?></td>
           <td>
-            <img src="uploads/<?php echo $alumno['fotografia']; ?>" alt="Foto" class="fotografia">
+            <img src="Imagenes/<?php echo $alumno['fotografia']; ?>" alt="Foto" class="fotografia">
           </td>
           <td><?php echo $alumno['nombres']; ?></td>
           <td><?php echo $alumno['apellidos']; ?></td>

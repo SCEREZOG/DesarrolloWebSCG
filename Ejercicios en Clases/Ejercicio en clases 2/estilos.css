@@ -1,0 +1,12 @@
+.contenedor {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.pie {
+  width: 900px;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .menu {
+        width: 150px;
+        padding: 10px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .menu select {
+        margin-top: 10px;
+        padding: 5px;
+        width: 100px;
+      }
+
+      .contenido-calendario {
+        padding: 20px;
+        flex-grow: 1;
+        text-align: center;
+        border: 1px solid black;
+      }
+
+      table {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        padding: 8px;
+        text-align: center;
+        border: 1px solid #ccc;
+      }
+
+      .footer {
+        background-color: #f4a892;
+        padding: 8px;
+        text-align: center;
+        font-size: 0.9rem;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contenedor-principal">
+      <div style="display: flex">
+        <div class="menu" id="menu">
+          <div style="background-color: brown; padding: 7px 20px">Opciones</div>
+          <select name="mes" id="mes" onchange="cambiar()">
+            <option value="1">Enero</option>
+            <option value="2">Febrero</option>
+            <option value="3">Marzo</option>
+            <option value="4">Abril</option>
+            <option value="5">Mayo</option>
+            <option value="6">Junio</option>
+            <option value="7">Julio</option>
+            <option value="8">Agosto</option>
+            <option value="9">Septiembre</option>
+            <option value="10">Octubre</option>
+            <option value="11">Noviembre</option>
+            <option value="12">Diciembre</option>
+          </select>
+          <select name="anio" id="anio" onchange="cambiar()"></select>
+        </div>
+
+        <div class="contenido-calendario" id="contenido">
+          Cargando contenido del calendario...
+        </div>
+      </div>
+
+      <div class="footer">Sucre - Semestre 1-2024</div>
+    </div>
+
+    <script>
+      const selectAnios = document.getElementById("anio");
+      for (let year = 1975; year <= 2024; year++) {
+        const option = document.createElement("option");
+        option.value = year;
+        option.textContent = year;
+        selectAnios.appendChild(option);
+      }
+    </script>
+    <script src="fetch.js"></script>
+  </body>
+</html>

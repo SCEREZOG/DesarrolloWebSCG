@@ -1,0 +1,89 @@
+#content-principal {
+  margin: auto;
+  width: 900px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+
+  #content-header {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+
+    #content-botones {
+      width: 20%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      #options {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      .options {
+        border: 1px solid black;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2px;
+        text-decoration: none;
+        color: black;
+      }
+    }
+
+    #contenido {
+      border-left: 1px solid black;
+      width: 80%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  #mensaje {
+    border-top: 1px solid black;
+    height: 40px;
+    background-color: rgb(87, 87, 184);
+  }
+}
+
+#content-ejercicio1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  #cuadro {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #turnoX {
+    width: 150px;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(87, 87, 184);
+    color: white;
+  }
+
+  .forma {
+    display: flex;
+    flex-direction: row;
+  }
+}

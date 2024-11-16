@@ -1,0 +1,40 @@
+<!-- En tabla.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<style>
+    .contenedor {
+        border: 1px solid black;
+        padding: 10px;
+        width: 700px;
+        margin-left: 20px;
+    }
+    #resultado {
+        margin-top: 20px;
+        padding: 10px;
+    }
+    button {
+        margin-top: 10px;
+    }
+</style>
+<body>
+    <div class="contenedor">
+        <form id="form-operaciones">
+            <label>Tabla del:</label>
+            <input type="number" id="numero1" placeholder="Menor a 10" />
+            <input type="radio" name="operacion" value="suma" checked /> Suma
+            <input type="radio" name="operacion" value="resta" /> Resta
+            <input type="radio" name="operacion" value="multiplicacion" /> Multiplicación
+            <input type="radio" name="operacion" value="division" /> División
+            <label>Hasta el:</label>
+            <input type="number" id="tabla" placeholder="Mayor a 1" />
+            <button type="button" id="btn-tabla">Tabla</button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+</body>
+</html>

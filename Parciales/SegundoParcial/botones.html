@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .botones {
+        display: flex;
+        margin: 10px;
+      }
+
+      .primeros {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+      }
+
+      .segundos {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+      }
+
+      .boton {
+        margin: 20px;
+        width: 40px;
+        height: 40px;
+        background-color: rgb(40, 153, 198);
+        color: white;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="botones">
+      <div class="primeros">
+        <a class="boton" href="javascript:ejercicio1()">1</a>
+        <a class="boton" href="javascript:ejercicio3()">3</a>
+        <a class="boton" href="javascript:mostrar()">5</a>
+      </div>
+      <div class="segundos">
+        <a class="boton" href="javascript:cargarGaleria()">2</a>
+        <a class="boton" href="javascript:cargarListado()">4</a>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

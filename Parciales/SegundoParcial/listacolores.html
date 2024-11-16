@@ -1,0 +1,27 @@
+<div class="contenedor-color">
+  <input type="color" id="color" value="" />
+  <button onclick="agregarCuadrado()">Agregar</button>
+</div>
+<div id="grilla"></div>
+
+<style>
+  .contenedor-color {
+    margin: 20px 0;
+  }
+  #grilla {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    gap: 10px;
+    padding: 10px;
+  }
+  .cuadrado {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  #color {
+    margin-right: 10px;
+  }
+</style>
